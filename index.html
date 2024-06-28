@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Intranet - HCN </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">INTRANET - HCN</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Time</a></li>
+          <li><a href="#pricing">Informativos</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Navegar</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Intranet Hospital do Coração de Natal</h1>
+            <p>A intranet HCN, foi desenvolvida com o objetivo de disseminar informações mais rápida para os colaboradores e de maneira centralizada.</p>
+            <div class="d-flex">
+              <a href="#services" class="btn-get-started">Serviços</a>
+              <a href="https://www.youtube.com/watch?v=Fh246aen3Ag" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Assista Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a href="https://hospitaldocoracao.com.br/"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.medimagem.com.br/"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></a><</div>
+            <div class="swiper-slide"><a href="https://www.vitoriaaparthospital.com.br/"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://saobernardoaparthospital.com.br/"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://hospitalmaranhense.com.br/"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://athenasaude.com.br/"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.humanasaude.com.br/nordeste/"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.hospitalhca.com.br/"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></a></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              A intranet corporativa contribui para uma comunicação mais eficiente, fortalecendo a cultura organizacional ao manter os funcionários alinhados com os valores e objetivos da empresa.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Facilidade de acesso à informação.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Interatividade entre funcionários.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Centralização da comunicação interna da empresa.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>A palavra intranet é uma derivação de internet, mas no sentido oposto. Ou seja, enquanto a internet é a rede mundial de computadores, a “Intranet” é um sistema fechado exclusivos determinadas pessoas.
+
+Por esta razão, é normalmente associada a empresas, porém, universidades, governo e outras organizações também usam esse tipo de tecnologia. </p>
+            <a href="#" class="read-more"><span>Leia Mais</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+<!--  INICIO DE FIM    <section id="why-us" class="section why-us" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>T.I. </span><strong>Corporativa</strong></h3>
+              <p>
+                É o conjunto de práticas, conhecimentos e recursos que visam gerenciar e otimizar os sistemas de informação dentro de uma organização.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span>O que o cordenador de TI atende?</h3>
+                <div class="faq-content">
+                  <p>Responsável por coordenar e supervisionar atividades da área de Informática, envolvendo a elaboração de projetos de implantação, racionalização e redesenho de processos, incluindo desenvolvimento e integração de sistemas, com utilização de alta tecnologia, elaborar plano de implantação, fazer interface com áreas do cliente para viabilizar o lançamento, acompanhar os indicadores de utilização do sistema, elaborar e executar planos de melhoria para aumentar a utilização do sistema, .</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+ <!--              <div class="faq-item">
+                <h3><span>02</span> O que o Analista de sistema atende?</h3>
+                <div class="faq-content">
+                  <p>Responsável por suporte a sistema, atuar com análise e projeto de sistemas, levantamento de requisitos e regras de negócio, mapeamento de processos e modelagem de dados, atuará com padrões de qualidade das rotinas e processos, impacto das alterações, garantia da integridade dos sistemas, realizar o planejamento de projetos e operações e versões, documentação das rotinas e processos, manuais, rotinas operacionais e outros, com acompanhamento e validação.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+  <!--             <div class="faq-item">
+                <h3><span>03</span> O que o Técnico de Informática atende?</h3>
+                <div class="faq-content">
+                  <p>Prestar suporte aos usuários da rede de computadores, envolvendo a montagem, reparos e configurações de equipamentos na utilização do hardware e software disponíveis, atuar com instalação e administração do Windows, realizar manutenção de computadores, hardware, software, suporte na solução de problemas, preparar inventário do hardware existente.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+ <!--            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Chamados de TI</h3>
+            <p class="fst-italic">
+              Gera indicadores e os indicadores de TI servem para quantificar a performance do setor de Tecnologia da Informação. Eles são essenciais para avaliar o progresso do time em relação aos objetivos da empresa e seu acompanhamento também contribui para a melhoria da satisfação dos clientes, bem como para aperfeiçoar a qualidade dos sistemas.
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>SISTEMA</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>MANUTENÇÃO DE EQUIPAMENTOS</span> <i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>SUPORTE N1</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>IMPRESSORAS</span> <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Serviços</h2>
+        <p>Está seção é destinada as plataformas usadas pelas equipes assistenciais e administrativas dos Hospital do Coração de Natal.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="https://sso.epimedmonitor.com/Account/Login?returnUrl=monitor" class="stretched-link">Epimed Solutions</a></h4>
+              <p>Sistema para gestão e análise de informações clínicas</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="http://172.16.32.82/gl/Login" class="stretched-link">GL - Gestão de Leitos</a></h4>
+              <p>A gestão de leitos é um processo que controla a ocupação e provisionamento de camas e espaços adequados para pacientes.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="https://login.qualiex.com/oauth2/authorize?client_id=afac8f21-d5c2-45b2-9495-bb256127f389&redirect_uri=https:%2F%2Fapps1.qualiex.com%2FShared%2FCallback&response_type=code&scope=openid%20profile%20email&state=Lw%3D%3D" class="stretched-link">Qualiex</a></h4>
+              <p>Qualiex é um software de gestão de qualidade que ajuda na gestão de não conformidades, gestão de competências, indicadores e muito mais.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="https://servicedesk.athenasaude.com.br/login/customer.html?RequestedURL=" class="stretched-link">OTRS - Portal de Ticket</a></h4>
+              <p>Portal de gestão de tickets, utilizado por usuários para abrir solicitações e pela equipes de Service Desk para atender.</p>
+            </div>
+          </div><!-- End Service Item -->
+		  
+		  <!-- ADICIONADO NOVOS SERVIÇOS -->
+		  
+		  <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="https://hcn.servicerapide.com.br/accounts/login/?next=/" class="stretched-link">Service Rapide</a></h4>
+              <p>Solução para gestão de laudos e imagens.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="https://athena.vindula.net/users/login" class="stretched-link">Vindula</a></h4>
+              <p>Portal de treinamento e notícias da Athena Saúde.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="https://athenasaude174344.rm.cloudtotvs.com.br/FrameHTML/Web/App/RH/PortalMeuRH/#/login" class="stretched-link">Meu RH - TOTVS</a></h4>
+              <p>Plataforma de gestão de atestados, férias e informações de contra-cheque.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="https://athena.fluig.com/portal/home" class="stretched-link">Fluig</a></h4>
+              <p>Ferramenta de solicitação da Athena Saúde.</p>
+            </div>
+          </div><!-- End Service Item -->
+		  
+		  <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="http://172.16.32.5/smartweb/" class="stretched-link">SmartWeb</a></h4>
+              <p>Plataforma WEB do sistema SMART. </p>
+            </div>
+          </div><!-- End Service Item -->
+		  
+		  <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="http://179.185.22.220/web_laudos/login.asp" class="stretched-link">Web Laudos</a></h4>
+              <p>Portal de emissão de laudos de pacientes e funcionários WEB.</p>
+            </div>
+          </div><!-- End Service Item -->
+		  
+		  <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="https://pedefacil.sodexobeneficios.com.br/PPW/" class="stretched-link">Pluxee - Sodexo</a></h4>
+              <p>Plataforma para acesso a saldo do cartão, extrato, consulta a rede credenciada.</p>
+            </div>
+          </div><!-- End Service Item -->
+		  
+		  <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="https://hcnatal.atenderbem.com/" class="stretched-link">Kualiz - Gestão e Qualidade</a></h4>
+              <p>Sistema de gestão de atendimentos pelo WhatsApp que acompanha e monitora em tempo real.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Sistemas de Gestão Hospitalar (SGH)</h3>
+            <p>São soluções tecnológicas projetadas para otimizar e integrar todos os processos de uma instituição de saúde. Ele automatiza procedimentos, melhora a eficiência operacional e garante o acesso rápido e seguro a informações críticas para o cuidado do paciente.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">(SGH)</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portifolio</h2>
+        <p>Seção destinada a fotos institucionais.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Tudo</li>
+            <li data-filter=".filter-app">HC</li>
+            <li data-filter=".filter-product">HCN</li>
+            <li data-filter=".filter-branding">Internamente</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Escadas HCN</h4>
+                <p>Visão interna</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Corredor HCN</h4>
+                <p>Visão interna</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Corredor HCN</h4>
+                <p>Visão interna</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hospital do Coração de Natal</h4>
+                <p>Visão Externa</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Atendimento Pronto Socorro</h4>
+                <p>Visão interna</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Placa HCN</h4>
+                <p>Visão Externa</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pronto Socorro</h4>
+                <p>Visão interna</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>HCN noturno</h4>
+                <p>Visão externa</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Recepção do Pronto Socorro</h4>
+                <p>Visão interna</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>TIME</h2>
+        <p>O time de Tecnologia da Informação (TI) é composto por profissionais capacitados para atender a área de negócios.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Maurício Nascimento de Souza</h4>
+                <span>Coordenador de Tecnologia da Informação</span>
+				<p>Técnico em Eletrônica - UFRN.</p>      
+				<p>Bacharel em Ciências e Tecnologia - UFRN.</p>       
+                <p>Engenheiro de Telecomunicações - UFRN.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Guilherme da Costa Schneider</h4>
+                <span>Gerente de Tecnologia da Infomação NE</span>
+                <p>Descrição</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Alexandre de Guimarães Aguiar Bezerra</h4>
+                <span>Analista de TI</span>
+                <p>Engenheiro Eletricista</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-4.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Chrisman de Santana Lopes de Sousa</h4>
+                <span>Técnico de Informática PL</span>
+                <p>Descrição</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+		  
+		  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-5.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Luã Yuri Araujo dos Santos</h4>
+                <span>Técnico de Informática</span>
+                <p>Descrição</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Informativos</h2>
+        <p>Espaço destinado para publicações de informativos e campanhas institucionais.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+			<div class="pricing-item">
+				
+<!-- Começo de teste -->
+
+<div class="pic"><img src="assets/img/informes/PONTO1.jpg" class="img-fluid" alt="" ></div>
+<a href="assets/img/informes/PONTO1.jpg" title="Orientação de Ponto" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+<br>
+<!-- termino de teste -->
+				
+                   
+	
+	
+              <h3>ORIENTAÇÃO DE PONTO.</h3>
+             <!--  <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>  -->
+               <!-- <li><i class="bi bi-check"></i> --> <span>Comunicado com as orientações de marcação de ponto.</span> <!--</li>-->
+													  
+				<!--									  
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a> -->
+            </div>
+          </div><!-- End Pricing Item -->
+
+			
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+			
+			<div class="pic"><img src="assets/img/informes/PONTO2.jpg" class="img-fluid" alt=""></div>
+			<a href="assets/img/informes/PONTO2.jpg" title="Ponto Intrajornada" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+			<br>
+			
+              <h3>PONTO INTRAJORNADA</h3>
+              <!-- <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> --> <span>[ATENÇÃO] - Alteração no Parâmetro do Ponto - Início 01/07/2024. 
+
+⚠️ 
+A partir desta data, não serão necessários os registros de ponto no período de intervalo, pois serão pré-assinalados.
+
+Em caso de dúvidas, a gestão e a equipe do Posto Avançado, irão te orientar.</span></li>
+				<!--									  
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a> -->
+            </div>
+          </div><!-- End Pricing Item -->
+
+			
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+			
+			<div class="pic"><img src="assets/img/informes/comorbidade.jpg" class="img-fluid" alt=""></div>
+			<a href="assets/img/informes/comorbidade.jpg" title="Pesquisa de Comorbidade" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+			<br>
+			
+              <h3>ANÁLISE DE COMORBIDADES</h3>
+             <!-- <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> --><span>Olá pessoal, boa tarde.
+													  Estive em todos os setores e deixei esta pesquisa sobre a ANÁLISE DE COMORBIDADES. Todos os nossos colaborares DEVEM participar, pois com base nela, traçaremos o perfil epidemiológico dos funcionários do HCN. 
+													  Conto com a participação e engajamento de vocês. Desde já, muito obrigada.
+													  Obs.: a cooperativa e os terceirizados NÃO participam.</span></li>
+				<!--
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a> -->
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Eventos</h2>
+        <p>Espaço reservado para anúncio de eventos institucionais.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Arraiá Athena</h3>
+                <h4>Nosso arraiá está chegando.</h4>
+                <!--<div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div> -->
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>🔥🌵🎉🎊O Arraiá Athena é uma ação que busca aliar a cultura regional nordestina e o DNA Athena, para disseminar de maneira lúdica e interativa a nossa cultura organizacional.   
+
+						O objetivo do nosso Plantão Junino é compartilhar os cinco valores do DNA Athena: SENSO DE DONO; ORIENTAÇÃO PARA RESULTADO; COLABORAÇÃO; COMPROMISSO COM A QUALIDADE AO CLIENTE; ÉTICA E COMPLIANCE.🔥🌵  
+
+						Você está convidado para participar desse momento super especial!🔥🌵</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+			<!-- INIBIR AVISOS
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+			<!-- INIBIR AVISOS
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+			<!-- INIBIR AVISOS
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+			<!-- INIBIR AVISOS
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Perguntas Frequentes</h2>
+        <p>Espaço destinado a perguntas frequêntes, dúvidas comuns de usuários.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>É necessário abrir chamado/solicitação?</h3>
+                <div class="faq-content">
+                  <p>SIM, para todos os casos que a equipe de TI for acionada, é necessário abrir solicitação para gerar indicadores para equipe.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Se no final de semana houver problemas, para quem ligamos/acionamos?</h3>
+                <div class="faq-content">
+                  <p>Para os finais de semana bem como os horários fora do expediente comercial, contamos com plantão de sobreaviso que é acionado pelo número: (84) 99428-6822.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Por onde abrimos a solicitação?</h3>
+                <div class="faq-content">
+                  <p>Pelo portal de chamados OTRS: https://servicedesk.athenasaude.com.br/login/customer.html?RequestedURL= </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Não lembro minha senha do e-mail, como recupero?</h3>
+                <div class="faq-content">
+                  <p>O e-mail corporativo não é mais gerenciado pela equipe de TI local. Para redefinir a senha em caso de esquecimento é necessário entrar em contato com o service desk da Athena e explicar a situação pelo número: 0800 774 0240.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Não consigo acesso MEU RH, o que faço?</h3>
+                <div class="faq-content">
+                  <p>Em caso de perca de acesso ao MEU RH, é necessário solicitar a redefinição da senha que será enviada para o e-mail corporativo do funcionário.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contato</h2>
+        <p>Para entrar em contato com a equipe de TI, por favor utilizar as informações a seguir.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Endereço</h3>
+                  <p>R. Cel. Auris Coelho, 235 - Lagoa Nova, Natal</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Telefone</h3>
+                  <p>(84) 4009-2003 / (84) 99428-6822 </p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>informatica@hcnatal.com.br</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.221357162407!2d-35.2095156242399!3d-5.8243796574264355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff8ce6aaa6a7%3A0x8ca7600ddc3b265c!2sHospital%20do%20Cora%C3%A7%C3%A3o%20de%20Natal!5e0!3m2!1spt-BR!2sbr!4v1719248176438!5m2!1spt-BR!2sbr" frameborder="0" style="border:0; width: 100%; height: 270px;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Nome</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Assunto</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensagem</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Enviar mensagem</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Boletim Informativo</h4>
+            <p>Pesquise por informativos neste espaço.</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Pesquisar"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Tecnologia da Informação</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>R. Cel. Auris Coelho, 235 - Lagoa Nova, Subsolo.</p>
+            <p>Natal, RN 59075-050</p>
+            <p class="mt-3"><strong>Telefone:</strong> <span> (84) 4009-2003</span></p>
+            <p><strong>Email:</strong> <span>informatica@hcnatal.com.br</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Links Utilizados</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Inicio</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Sobre</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Serviços</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Termos de Serviços</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Outros Serviços</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Teste</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Teste</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Teste</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Teste</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Siga nas redes sociais</h4>
+          <p>Páginas sociais da TI.</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Mauricios</strong> <span>All Rights Reserved - Versão Beta.</span></p>
+      <div class="credits">
+    
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
